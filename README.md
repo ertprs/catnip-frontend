@@ -1,6 +1,6 @@
 # Frontend da aplicação
 
-- *Em desenvolvimento*
+- __*Em desenvolvimento*__
 
 - Contém telas de Cadastro Inicial, Login e Dashboard
 
