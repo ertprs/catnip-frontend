@@ -1,6 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom"
 
+import "./styles.css";
+
 const Dashboard = () => {
   const history = useHistory();
 
@@ -13,11 +15,11 @@ const Dashboard = () => {
   }
 
   return (
-    <div>
+    <div className="container-dashboard">
       <h1>Dashboard Page</h1>
 
       <form onSubmit={handleLogout}>
-        <button type="submit">
+        <button type="submit" className="button">
           Sair
         </button>        
       </form>
